@@ -12,3 +12,25 @@ section, .section {
 a {
     transition: all .5s ease;
 }
+
+.col {
+    float: left;
+    width: 50%;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    background: darken($grey, 10%);
+    padding: 12px;
+    font-size: 1em;
+    font-weight: 100;
+    border: 0;
+    margin-bottom: 12px;
+}

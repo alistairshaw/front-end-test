@@ -1,0 +1,37 @@
+.checkout-form {
+    background: $grey;
+    padding: 40px 0;
+    section {
+        width: auto;
+        max-width: 800px;
+        @extend .clearfix;
+    }
+    h3 {
+        color: darken($grey, 20%);
+        border-bottom: 1px solid darken($grey, 20%);
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    h4 {
+        color: darken($font-color, 20%);
+        margin-bottom: 20px;
+    }
+    .school-details, .billing-address {
+        @extend .col;
+        margin-bottom: 40px;
+    }
+    .school-details {
+        > div {
+            padding-right: 30px;
+        }
+    }
+    .billing-address {
+        > div {
+            padding-left: 30px;
+        }
+    }
+    .purchase-order-number {
+        margin-bottom: 40px;
+    }
+}
