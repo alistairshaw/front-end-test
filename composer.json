@@ -1,0 +1,16 @@
+{
+    "name": "alistairshaw/front-end-test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alistair Shaw",
+            "email": "alistairshaw@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
