@@ -1,4 +1,4 @@
-kafka:
+front-end-test:
   build: .
   volumes:
     - .:/var/www/html

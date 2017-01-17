@@ -1,0 +1,63 @@
+header {
+    background: $lyellow;
+    height: 145px;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: right;
+        li {
+            float: left;
+            a {
+                display: block;
+                padding: 12px;
+                color: darken($dyellow, 20%);
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 100;
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.top-bar {
+    background: $dyellow;
+    height: 42px;
+    ul {
+        li {
+            a {
+                font-size: 0.9em;
+                color: darken($dyellow, 20%);
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+header > nav {
+    @extend .section;
+    margin-top: 20px;
+    ul {
+        li {
+            a {
+                padding: 20px;
+                color: white;
+                &:hover {
+                    color: darken($dyellow, 20%);
+                }
+            }
+        }
+    }
+    > .logo {
+        display: block;
+        width: 178px;
+        height: 64px;
+        float: left;
+        background: url(../img/logo.png);
+    }
+}
