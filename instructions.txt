@@ -1,0 +1,35 @@
+INSTRUCTIONS
+
+
+1. Convert the attached form.psd document into a web page.
+
+
+
+2. The form should have client-side validation on the following fields:
+
+
+
+	Full Name - Required
+	Job Role - Required
+
+	Email Address - Required and must be a valid email address
+	Terms of Use - must be checked
+
+
+
+3. On clicking confirm order, the customer's details should be stored.
+
+
+
+NOTES
+
+
+
+- Use any framework, toolset or plugin that you feel is appropriate and that you are comfortable with.
+
+
+- Use whatever method you like to store the customer details, but consider the possible use cases for
+ the data in order to guide your decision.
+
+
+- Other on-page links do not need to go anywhere, you only need make functional the 'Confirm Order' button.
