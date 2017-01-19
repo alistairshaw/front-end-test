@@ -1,5 +1,6 @@
 vendor
 node_modules
-public
-!public/index.php
-!public/api
+public/css
+public/fonts
+public/img
+public/js
