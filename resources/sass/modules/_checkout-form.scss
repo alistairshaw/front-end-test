@@ -34,4 +34,30 @@
     .purchase-order-number {
         margin-bottom: 40px;
     }
+    .terms-checkbox {
+        display: inline-flex;
+        width: 100%;
+        justify-content: flex-end;
+        p {
+            padding: 10px;
+        }
+        input {
+            width: 50px;
+        }
+    }
+    .confirm-button {
+        background: $blue;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 0.9em;
+        border: none;
+        padding: 10px;
+        margin: 20px 0 30px 0;
+        float: right;
+        &:hover {
+            color: $lyellow;
+            cursor: pointer;
+        }
+    }
 }

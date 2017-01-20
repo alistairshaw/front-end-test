@@ -31,10 +31,13 @@ export default function CheckoutForm(props) {
                     <TextField name="purchaseOrder" placeholder="Purchase Order Number" />
                 </div>
             </div>
+            <div className="terms-checkbox">
+                <p>I have read and agreed to the Terms of Use and Privacy and Cookie Policies</p>
+                <input type="checkbox" name="terms"/>
+            </div>
             <div className="summary">
                 <div>
-                    <h4>Confirm Your Order</h4>
-
+                    <button className="confirm-button">Confirm Your Order</button>
                 </div>
             </div>
         </section>
